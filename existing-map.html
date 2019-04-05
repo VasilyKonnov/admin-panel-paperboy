@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" lt-ie10 lt-ie9"> <![endif]-->
-<!--[if IE 9]>         <html lang="en" lt-ie10"> <![endif]-->
+<!--[if lt IE 7]>      <html lang="en" class=" lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class=" lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class=" lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html lang="en" class=" lt-ie10"> <![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>New route</title>
+    <title>Existing maps</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -59,57 +59,37 @@
         </div>
         <div class="main_container_body">
 
-            <h1>NEW ROUTE</h1>
+            <h1>EXISTING MAPS</h1>
 
             <div class="flex-container">
 
-                <div class="maps_menu">
-                    <ul>
-                        <li><a href="#">Bruxelles 001
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                            </a>
-                        </li>
-                        <li><a href="#">Bruxelles 002
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                        </a>
-                        </li>
-                        <li><a href="#">Bruxelles 003
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                        </a>
-                        </li>
-                        <li><a href="#">Bruxelles 004
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="maps_wrapper">
-                    <div class="maps_control_btn new_map_control_btn">
-
-                        <div class="maps_name new_map">
-                            <p>Bruxelles 002</p>
-                        </div>
-
-                        <button class="green-btn">Save changes</button>
-                        <button class="grey-btn">Redraw</button>
-
-                    </div>
-
-                    <div class="maps_map" style="background-image: url('img/exist-maps.png');">
-                        <!-- place for map -->
-                    </div>
-                </div>
-
+            <div class="maps_menu">
+                <ul>
+                    <li><a href="#">Bruxelles 001</a></li>
+                    <li><a href="#">Bruxelles 002</a></li>
+                    <li><a href="#" class="active">Bruxelles 003</a></li>
+                    <li><a href="#">Bruxelles 004</a></li>
+                </ul>
             </div>
+            <div class="maps_wrapper">
+                <div class="maps_control_btn">
+
+                    <div class="maps_name">
+                        <p>Bruxelles 002</p>
+                    </div>
+
+                    <button class="blue-btn">Modify map</button>
+                    <button class="green-btn">Save changes</button>
+                    <button class="red-btn">Delete map</button>
+
+                </div>
+
+                <div class="maps_map" style="background-image: url('img/exist-maps.png');">
+                    <!-- place for map -->
+                </div>
+            </div>
+            </div>
+
         </div>
     </div>
 </div>
