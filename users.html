@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>New route</title>
+    <title>Users</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -59,58 +59,68 @@
         </div>
         <div class="main_container_body">
 
-            <h1>NEW ROUTE</h1>
-
-            <div class="flex-container">
-
-                <div class="maps_menu">
-                    <ul>
-                        <li><a href="#">Bruxelles 001
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                            </a>
-                        </li>
-                        <li><a href="#">Bruxelles 002
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                        </a>
-                        </li>
-                        <li><a href="#">Bruxelles 003
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                        </a>
-                        </li>
-                        <li><a href="#">Bruxelles 004
-                            <ul class="inner-ul">
-                                <li><a href="#">New</a></li>
-                            </ul>
-                        </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="maps_wrapper">
-                    <div class="maps_control_btn new_map_control_btn">
-
-                        <div class="maps_name new_map">
-                            <p>Bruxelles 002</p>
-                        </div>
-
-                        <button class="green-btn">Save changes</button>
-                        <button class="grey-btn">Redraw</button>
-
-                    </div>
-
-                    <div class="maps_map" style="background-image: url('img/exist-maps.png');">
-                        <!-- place for map -->
-                    </div>
-                </div>
-
+            <div class="name_block_header">
+                <h1>USERS</h1>
+                <button class="blue-btn">Add a user</button>
+                <form>
+                    <label><span>Search:</span> <input class="search" type="search"></label>
+                </form>
             </div>
-        </div>
+
+            <div class="name_block_body">
+                <table>
+                    <tr class="header_table">
+                        <td>#</td>
+                        <td>Prenom</td>
+                        <td>Last Name</td>
+                        <td>Email</td>
+                        <td>Phone</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>pompom@mdo</td>
+                        <td>+32 476 65 14 22</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+                        <td>
+                            <button class="red-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Job</td>
+                        <td>Thornton</td>
+                        <td>pompom@mdo</td>
+                        <td>+32 476 65 14 22</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+                        <td>
+                            <button class="red-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>pompom@mdo</td>
+                        <td>+32 476 65 14 22</td>
+                        <td>
+                            <button class="edit-btn">Edit</button>
+                        </td>
+                        <td>
+                            <button class="red-btn">Delete</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!--<div class="flex-container"></div>-->
     </div>
 </div>
 <script src="libs/js/jquery-3.3.1.min.js"></script>
